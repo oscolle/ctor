@@ -1,0 +1,9 @@
+details:
+  name: Notepad++
+  author: Don Ho
+install:
+  steps:
+    - download:
+        url: "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.9.1/npp.8.9.1.Installer.x64.exe"
+    - execute:
+        command: "%pname% /silent /install"
