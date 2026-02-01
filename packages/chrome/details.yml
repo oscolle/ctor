@@ -5,7 +5,5 @@ install:
   steps:
     - download:
         url: "http://dl.google.com/chrome/install/375.126/chrome_installer.exe"
-        to: "$TEMP$"
     - execute:
-        elevated: true
-        command: "$TEMP$ /silent /install"
+        command: "%pname% /silent /install"
